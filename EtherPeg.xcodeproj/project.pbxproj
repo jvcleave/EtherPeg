@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034A6F1B14F74E40001B1B12 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034A6F1A14F74E40001B1B12 /* Carbon.framework */; };
+		034A6F2214F74E4F001B1B12 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034A6F2114F74E4F001B1B12 /* QuickTime.framework */; };
+		034A6F2814F74EBA001B1B12 /* libpcap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 034A6F2714F74EBA001B1B12 /* libpcap.a */; };
+		0398B2DB14F75236003FB6D1 /* EtherPEG.c in Sources */ = {isa = PBXBuildFile; fileRef = 0398B2D514F75236003FB6D1 /* EtherPEG.c */; };
+		0398B2DC14F75236003FB6D1 /* PromiscuityX.c in Sources */ = {isa = PBXBuildFile; fileRef = 0398B2D814F75236003FB6D1 /* PromiscuityX.c */; };
+		0398B2DD14F75236003FB6D1 /* SortFrames.c in Sources */ = {isa = PBXBuildFile; fileRef = 0398B2D914F75236003FB6D1 /* SortFrames.c */; };
+		8DD76FB00486AB0100D96B5E /* EtherPeg.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* EtherPeg.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* EtherPeg.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		034A6F1A14F74E40001B1B12 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		034A6F2114F74E4F001B1B12 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		034A6F2714F74EBA001B1B12 /* libpcap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcap.a; path = /opt/local/lib/libpcap.a; sourceTree = "<absolute>"; };
+		0398B2D514F75236003FB6D1 /* EtherPEG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EtherPEG.c; path = Source/EtherPEG.c; sourceTree = "<group>"; };
+		0398B2D614F75236003FB6D1 /* EtherPEG.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = EtherPEG.r; path = Source/EtherPEG.r; sourceTree = "<group>"; };
+		0398B2D714F75236003FB6D1 /* Promiscuity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Promiscuity.h; path = Source/Promiscuity.h; sourceTree = "<group>"; };
+		0398B2D814F75236003FB6D1 /* PromiscuityX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PromiscuityX.c; path = Source/PromiscuityX.c; sourceTree = "<group>"; };
+		0398B2D914F75236003FB6D1 /* SortFrames.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SortFrames.c; path = Source/SortFrames.c; sourceTree = "<group>"; };
+		0398B2DA14F75236003FB6D1 /* SortFrames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortFrames.h; path = Source/SortFrames.h; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* EtherPeg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EtherPeg; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* EtherPeg.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EtherPeg.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034A6F1B14F74E40001B1B12 /* Carbon.framework in Frameworks */,
+				034A6F2214F74E4F001B1B12 /* QuickTime.framework in Frameworks */,
+				034A6F2814F74EBA001B1B12 /* libpcap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* EtherPeg */ = {
+			isa = PBXGroup;
+			children = (
+				034A6F2714F74EBA001B1B12 /* libpcap.a */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				034A6F1A14F74E40001B1B12 /* Carbon.framework */,
+				034A6F2114F74E4F001B1B12 /* QuickTime.framework */,
+			);
+			name = EtherPeg;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0398B2D514F75236003FB6D1 /* EtherPEG.c */,
+				0398B2D614F75236003FB6D1 /* EtherPEG.r */,
+				0398B2D714F75236003FB6D1 /* Promiscuity.h */,
+				0398B2D814F75236003FB6D1 /* PromiscuityX.c */,
+				0398B2D914F75236003FB6D1 /* SortFrames.c */,
+				0398B2DA14F75236003FB6D1 /* SortFrames.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* EtherPeg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* EtherPeg.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* EtherPeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "EtherPeg" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherPeg;
+			productInstallPath = "$(HOME)/bin";
+			productName = EtherPeg;
+			productReference = 8DD76FB20486AB0100D96B5E /* EtherPeg */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "EtherPeg" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* EtherPeg */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* EtherPeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0398B2DB14F75236003FB6D1 /* EtherPEG.c in Sources */,
+				0398B2DC14F75236003FB6D1 /* PromiscuityX.c in Sources */,
+				0398B2DD14F75236003FB6D1 /* SortFrames.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = EtherPeg;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = EtherPeg;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/opt/local/include/pcap,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/opt/local/include/pcap,
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "EtherPeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "EtherPeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

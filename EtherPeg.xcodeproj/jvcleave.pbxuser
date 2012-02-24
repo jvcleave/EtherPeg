@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	034A6EFE14F74D68001B1B12 /* EtherPeg */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EtherPeg;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	034A6F0314F74D72001B1B12 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	034A6F0414F74D72001B1B12 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	034A6F0814F74D84001B1B12 /* Promiscuity.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Promiscuity.h;
+		path = "/Users/jvcleave/Desktop/EtherPeg_SnowLeopard/EtherPEG-for-X-1.3a1/Sources/Promiscuity.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1077, 658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 86}";
+		};
+	};
+	034A6F3114F74EEB001B1B12 /* pcap.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = pcap.h;
+		path = /opt/local/include/pcap/pcap.h;
+		sourceTree = "<absolute>";
+	};
+	034A6F4414F750B0001B1B12 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 034A6F3114F74EEB001B1B12 /* pcap.h */;
+		name = "pcap.h: 401";
+		rLen = 0;
+		rLoc = 13770;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 2392;
+	};
+	034A6F5A14F75190001B1B12 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 034A6F0814F74D84001B1B12 /* Promiscuity.h */;
+		name = "Promiscuity.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 86;
+		vrLoc = 0;
+	};
+	0398B2E414F75243003FB6D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0398B2E514F75243003FB6D1 /* Promiscuity.h */;
+		name = "Promiscuity.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 86;
+		vrLoc = 0;
+	};
+	0398B2E514F75243003FB6D1 /* Promiscuity.h */ = {
+		isa = PBXFileReference;
+		name = Promiscuity.h;
+		path = "/Users/jvcleave/Desktop/EtherPeg_SnowLeopard/EtherPEG-for-X-1.3a1/Sources/Promiscuity.h";
+		sourceTree = "<absolute>";
+	};
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 034A6EFE14F74D68001B1B12 /* EtherPeg */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* EtherPeg */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* EtherPeg */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 034A6F0414F74D72001B1B12 /* Code sense */;
+		executables = (
+			034A6EFE14F74D68001B1B12 /* EtherPeg */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					899,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 351752716;
+			PBXWorkspaceStateSaveDate = 351752716;
+		};
+		perUserProjectItems = {
+			034A6F4414F750B0001B1B12 /* PBXTextBookmark */ = 034A6F4414F750B0001B1B12 /* PBXTextBookmark */;
+			034A6F5A14F75190001B1B12 /* PBXTextBookmark */ = 034A6F5A14F75190001B1B12 /* PBXTextBookmark */;
+			0398B2E414F75243003FB6D1 /* PBXTextBookmark */ = 0398B2E414F75243003FB6D1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 034A6F0314F74D72001B1B12 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* EtherPeg */ = {
+		activeExec = 0;
+		executables = (
+			034A6EFE14F74D68001B1B12 /* EtherPeg */,
+		);
+	};
+}

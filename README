@@ -1,0 +1,4 @@
+sudo chmod 777 /dev/bpf*
+
+sudo port install libpcap +universal
+
